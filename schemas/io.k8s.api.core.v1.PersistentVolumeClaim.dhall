@@ -1,5 +1,7 @@
 { Type =
-    ./../types/io.k8s.api.core.v1.PersistentVolumeClaim.dhall sha256:83fe01027c7540bf700a16fbfcd66d25fad6787d3a70e98d094a2529fec55536
+    ./../types/io.k8s.api.core.v1.PersistentVolumeClaim.dhall
+      sha256:9968f99afdf85ef7283bceb4947ffc756ed58598f95369336cd5974d2cd9b3ab
 , default =
-    ./../defaults/io.k8s.api.core.v1.PersistentVolumeClaim.dhall sha256:b673b8b346ecc2a1f381cfdeb2d99a3d528b504c980f73978fe9dd3041c9de8b
+    ./../defaults/io.k8s.api.core.v1.PersistentVolumeClaim.dhall
+      sha256:b07f13c867c76793e960a881ff21cad67d0883e20538047456fcb9fcc69ef738
 }

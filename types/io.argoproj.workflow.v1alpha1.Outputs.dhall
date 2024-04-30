@@ -1,13 +1,15 @@
 { artifacts :
     Optional
       ( List
-          ./io.argoproj.workflow.v1alpha1.Artifact.dhall sha256:a7807e69162c2ff9b230eef744f9f0fe8b558bb0f8b53867627fe3b0e66d4bcd
+          ./io.argoproj.workflow.v1alpha1.Artifact.dhall
+            sha256:a9c6c14627dab1c6c6ae018bf0ae21f7d246684cabc37bdcc6836c13e8a197e5
       )
 , exitCode : Optional Text
 , parameters :
     Optional
       ( List
-          ./io.argoproj.workflow.v1alpha1.Parameter.dhall sha256:30c98d34a1719c749454f652f5d1c8e4ca4e6f33db2bcd86ca9b0237a1c80268
+          ./io.argoproj.workflow.v1alpha1.Parameter.dhall
+            sha256:2edc4f1afdda71aab19065c0f76834401af54c4730da865f322dfe645720f8af
       )
 , result : Optional Text
 }

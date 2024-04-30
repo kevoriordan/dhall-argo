@@ -1,5 +1,7 @@
 { Type =
-    ./../types/io.k8s.api.core.v1.WindowsSecurityContextOptions.dhall sha256:df385f324feb093a1b967946b617d64f79bf52eca78953ceffdae4fd36729094
+    ./../types/io.k8s.api.core.v1.WindowsSecurityContextOptions.dhall
+      sha256:f10b99b9ee1e7b5c591f170e5f99c0edd6973c5a7158bb2bc93e2ec1efe5e642
 , default =
-    ./../defaults/io.k8s.api.core.v1.WindowsSecurityContextOptions.dhall sha256:0fed2504bf260a97e2ab0f6d1aad29dc82e758d7db843da4e93b7bbe2d7b3b84
+    ./../defaults/io.k8s.api.core.v1.WindowsSecurityContextOptions.dhall
+      sha256:a9d0c3af7d7cac76e4ab7487517fdde6426e783b862ea43c8c854ea3151dc8ba
 }

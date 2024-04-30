@@ -1,5 +1,7 @@
 { Type =
-    ./../types/io.argoproj.workflow.v1alpha1.GetUserInfoResponse.dhall sha256:c804c8dc674f6bff33a9f8e81a34f460f14987d8b6c811b0f428818d4972f79a
+    ./../types/io.argoproj.workflow.v1alpha1.GetUserInfoResponse.dhall
+      sha256:996105e234e81a388e8ab9f761b1d78c8a0e833fb8fd4cae8a4f2d2b7bedfe9c
 , default =
-    ./../defaults/io.argoproj.workflow.v1alpha1.GetUserInfoResponse.dhall sha256:0f62c447f1ada0809b93b6728c19b09b66edbea0fd4a173ae59ac3f010f0f239
+    ./../defaults/io.argoproj.workflow.v1alpha1.GetUserInfoResponse.dhall
+      sha256:24d73bcf56c0098bfa015cf0140315b748b17206365037a7d1c0c826eca99366
 }

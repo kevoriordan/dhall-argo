@@ -1,4 +1,5 @@
 { podAffinityTerm :
-    ./io.k8s.api.core.v1.PodAffinityTerm.dhall sha256:c1d3b90fb7c9be025d67529b5d602b3d3bedf368d2eaded64c7277f1bef6f689
-, weight : Natural
+    ./io.k8s.api.core.v1.PodAffinityTerm.dhall
+      sha256:6501475500e30af5f5cc48574f3a7cc4e35b7b5757a4384795fc06b4cd6f6a3e
+, weight : Integer
 }

@@ -1,5 +1,7 @@
 { Type =
-    ./../types/io.argoproj.workflow.v1alpha1.WorkflowEventBindingSpec.dhall sha256:26cb45c0fa0df5e8e0b6688bc05687b036feef4bd6979d09d875e09e1dde7551
+    ./../types/io.argoproj.workflow.v1alpha1.WorkflowEventBindingSpec.dhall
+      sha256:0c0c13e8ebf8dbbb75b551b8f8e174549a74d26e06f779ba0d8a4f7140d74c2f
 , default =
-    ./../defaults/io.argoproj.workflow.v1alpha1.WorkflowEventBindingSpec.dhall sha256:a116c709282adc757ebc0e007226e1a737cabee4d1aa731a19ba0dd5e2a0b54b
+    ./../defaults/io.argoproj.workflow.v1alpha1.WorkflowEventBindingSpec.dhall
+      sha256:e464a42c77272d0d64e513f15925a76f07560a8dd9ff5d7d5adb894647f9301c
 }

@@ -1,5 +1,6 @@
 { cronWorkflow :
     Optional
-      ./io.argoproj.workflow.v1alpha1.CronWorkflow.dhall sha256:23bf8e9aba52a7959f1da99cf2bacaa42382949ab283daa176272318234fd217
+      ./io.argoproj.workflow.v1alpha1.CronWorkflow.dhall
+        sha256:a5c6aa39f09b98cd3d8ddf5a171a513b31e93f0a72cee020ec871057ee25dd66
 , namespace : Optional Text
 }

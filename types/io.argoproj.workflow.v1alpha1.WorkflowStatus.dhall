@@ -1,33 +1,66 @@
-{ compressedNodes : Optional Text
+{ artifactGCStatus :
+    Optional
+      ./io.argoproj.workflow.v1alpha1.ArtGCStatus.dhall
+        sha256:4d05d157ebe171021b3bd77e81a56a2a7f64d760374d9510f73c7a2cd165b894
+, artifactRepositoryRef :
+    Optional
+      ./io.argoproj.workflow.v1alpha1.ArtifactRepositoryRefStatus.dhall
+        sha256:1932b1e155b34f7b4394482cce40fe87f8f15b910466c4758cd7f7f96cb751a5
+, compressedNodes : Optional Text
 , conditions :
     Optional
       ( List
-          ./io.argoproj.workflow.v1alpha1.Condition.dhall sha256:e3933ea164f53fa27da9cd1ba9018008e69b0b5a5790e09780d10109080319fd
+          ./io.argoproj.workflow.v1alpha1.Condition.dhall
+            sha256:e3933ea164f53fa27da9cd1ba9018008e69b0b5a5790e09780d10109080319fd
       )
+, estimatedDuration : Optional Integer
 , finishedAt :
     Optional
-      ./io.k8s.apimachinery.pkg.apis.meta.v1.Time.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
+      ./io.k8s.apimachinery.pkg.apis.meta.v1.Time.dhall
+        sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
 , message : Optional Text
-, nodes : Optional (List { mapKey : Text, mapValue : Text })
+, nodes :
+    Optional
+      ( List
+          { mapKey : Text
+          , mapValue :
+              ./io.argoproj.workflow.v1alpha1.NodeStatus.dhall
+                sha256:f7ac3c4754dd1d3141e86c26abea14c418ad8c4a02667afae79ffb5af781b914
+          }
+      )
 , offloadNodeStatusVersion : Optional Text
 , outputs :
     Optional
-      ./io.argoproj.workflow.v1alpha1.Outputs.dhall sha256:ea2ff8d52cf773c2acadfecc3f41e35927782874299e0834baa8797da5b72303
+      ./io.argoproj.workflow.v1alpha1.Outputs.dhall
+        sha256:f9f4864d581e858a89922223a453f0ce1cb65379d676f86e87e78650dfa15f48
 , persistentVolumeClaims :
     Optional
       ( List
-          ./io.k8s.api.core.v1.Volume.dhall sha256:534bc08f5a965b6f4283150bec676c7eebbb18f5953c21a827dc1097aa1c0178
+          ./io.k8s.api.core.v1.Volume.dhall
+            sha256:d50224930d765be9d8aae08c96107a2c058574774784fc75cd4dfcfaf80528cc
       )
 , phase : Optional Text
-, resourcesDuration : Optional (List { mapKey : Text, mapValue : Text })
+, progress : Optional Text
+, resourcesDuration : Optional (List { mapKey : Text, mapValue : Integer })
 , startedAt :
     Optional
-      ./io.k8s.apimachinery.pkg.apis.meta.v1.Time.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
-, storedTemplates : Optional (List { mapKey : Text, mapValue : Text })
+      ./io.k8s.apimachinery.pkg.apis.meta.v1.Time.dhall
+        sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
+, storedTemplates :
+    Optional
+      ( List
+          { mapKey : Text
+          , mapValue :
+              ./io.argoproj.workflow.v1alpha1.Template.dhall
+                sha256:b9de9b077d64be85abc18bb6a4197b7b1082b6d9620b8d30cfb0a9eff2068ea4
+          }
+      )
 , storedWorkflowTemplateSpec :
     Optional
-      ./io.argoproj.workflow.v1alpha1.WorkflowSpec.dhall sha256:05f66b76d369f93fcd030e319672ec65c508345e53de2041149884fcdc0ace8f
+      ./io.argoproj.workflow.v1alpha1.WorkflowSpec.dhall
+        sha256:4bdb7584bf3b60d0e3966a920576cf41f6fd1d049c5c263c0551ad215f1e6aa9
 , synchronization :
     Optional
-      ./io.argoproj.workflow.v1alpha1.SynchronizationStatus.dhall sha256:626c377c2a486a2b55216f9dc5e1fe8bcd9b53ec0dd8ee571f2f38aa6690c9c6
+      ./io.argoproj.workflow.v1alpha1.SynchronizationStatus.dhall
+        sha256:626c377c2a486a2b55216f9dc5e1fe8bcd9b53ec0dd8ee571f2f38aa6690c9c6
 }

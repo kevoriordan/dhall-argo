@@ -1,15 +1,21 @@
 { repo : Text
-, depth : Optional Natural
+, branch : Optional Text
+, depth : Optional Integer
+, disableSubmodules : Optional Bool
 , fetch : Optional (List Text)
 , insecureIgnoreHostKey : Optional Bool
 , passwordSecret :
     Optional
-      ./io.k8s.api.core.v1.SecretKeySelector.dhall sha256:9c4e3bea86f7f805947acbf73e2886b8527517926ff5165981da2c47ed72c27c
+      ./io.k8s.api.core.v1.SecretKeySelector.dhall
+        sha256:9c4e3bea86f7f805947acbf73e2886b8527517926ff5165981da2c47ed72c27c
 , revision : Optional Text
+, singleBranch : Optional Bool
 , sshPrivateKeySecret :
     Optional
-      ./io.k8s.api.core.v1.SecretKeySelector.dhall sha256:9c4e3bea86f7f805947acbf73e2886b8527517926ff5165981da2c47ed72c27c
+      ./io.k8s.api.core.v1.SecretKeySelector.dhall
+        sha256:9c4e3bea86f7f805947acbf73e2886b8527517926ff5165981da2c47ed72c27c
 , usernameSecret :
     Optional
-      ./io.k8s.api.core.v1.SecretKeySelector.dhall sha256:9c4e3bea86f7f805947acbf73e2886b8527517926ff5165981da2c47ed72c27c
+      ./io.k8s.api.core.v1.SecretKeySelector.dhall
+        sha256:9c4e3bea86f7f805947acbf73e2886b8527517926ff5165981da2c47ed72c27c
 }

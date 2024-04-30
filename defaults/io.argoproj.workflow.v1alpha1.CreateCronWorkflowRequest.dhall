@@ -1,8 +1,10 @@
 { createOptions =
     None
-      ./../types/io.k8s.apimachinery.pkg.apis.meta.v1.CreateOptions.dhall sha256:fd514bdfb38138870f516b7d20ed82893c5e471b5e64ba797cd16a5427f0001a
+      ./../types/io.k8s.apimachinery.pkg.apis.meta.v1.CreateOptions.dhall
+        sha256:50d07edcda66fefa4eea21405bb650fcccb2648792aed7c21d99c14488946b71
 , cronWorkflow =
     None
-      ./../types/io.argoproj.workflow.v1alpha1.CronWorkflow.dhall sha256:23bf8e9aba52a7959f1da99cf2bacaa42382949ab283daa176272318234fd217
+      ./../types/io.argoproj.workflow.v1alpha1.CronWorkflow.dhall
+        sha256:a5c6aa39f09b98cd3d8ddf5a171a513b31e93f0a72cee020ec871057ee25dd66
 , namespace = None Text
 }

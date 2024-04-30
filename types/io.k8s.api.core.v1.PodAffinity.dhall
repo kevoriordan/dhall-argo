@@ -1,11 +1,13 @@
 { preferredDuringSchedulingIgnoredDuringExecution :
     Optional
       ( List
-          ./io.k8s.api.core.v1.WeightedPodAffinityTerm.dhall sha256:d31adc713699f2f3a6b88f5ccdadfd250d458010b678ce12bf87c76075c2e4df
+          ./io.k8s.api.core.v1.WeightedPodAffinityTerm.dhall
+            sha256:11e924830a6ee2e0c7e98d240d0f0a1f73081ca699984ce745b472f04c168c52
       )
 , requiredDuringSchedulingIgnoredDuringExecution :
     Optional
       ( List
-          ./io.k8s.api.core.v1.PodAffinityTerm.dhall sha256:c1d3b90fb7c9be025d67529b5d602b3d3bedf368d2eaded64c7277f1bef6f689
+          ./io.k8s.api.core.v1.PodAffinityTerm.dhall
+            sha256:6501475500e30af5f5cc48574f3a7cc4e35b7b5757a4384795fc06b4cd6f6a3e
       )
 }

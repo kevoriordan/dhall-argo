@@ -3,35 +3,47 @@
 , env =
     None
       ( List
-          ./../types/io.k8s.api.core.v1.EnvVar.dhall sha256:f65fc60c0ee435d1e9e9fb0023420d8286ff27b3a50aa520dbe6b0a22b266783
+          ./../types/io.k8s.api.core.v1.EnvVar.dhall
+            sha256:f65fc60c0ee435d1e9e9fb0023420d8286ff27b3a50aa520dbe6b0a22b266783
       )
 , envFrom =
     None
       ( List
-          ./../types/io.k8s.api.core.v1.EnvFromSource.dhall sha256:dfcc1bb473c7306a41d254589fbc657b21a06c0bae47a411c9d9b7f1b3b07f5d
+          ./../types/io.k8s.api.core.v1.EnvFromSource.dhall
+            sha256:dfcc1bb473c7306a41d254589fbc657b21a06c0bae47a411c9d9b7f1b3b07f5d
       )
 , imagePullPolicy = None Text
 , lifecycle =
     None
-      ./../types/io.k8s.api.core.v1.Lifecycle.dhall sha256:14a1a693c45dc6354ba99258ffaaaa2a3cdf66a6112401b41c3fd77be76fbd04
+      ./../types/io.k8s.api.core.v1.Lifecycle.dhall
+        sha256:b8e42132176f9f4d6bb32c40a43d29f8974992697507d3308c472102470f369a
 , livenessProbe =
     None
-      ./../types/io.k8s.api.core.v1.Probe.dhall sha256:c3eda1a20dafd00a0e706faa4bcb5f19ec8de10fc91e177bb97072339a406655
+      ./../types/io.k8s.api.core.v1.Probe.dhall
+        sha256:de23bf04b217c462b912da9de0552942eabbb2aa5f22db1b454ac9004fa895a8
 , name = None Text
 , ports =
     None
       ( List
-          ./../types/io.k8s.api.core.v1.ContainerPort.dhall sha256:4e77a1c7092e5ef28542406404e3f44234fa81dea270e09f468e79ba428a575c
+          ./../types/io.k8s.api.core.v1.ContainerPort.dhall
+            sha256:9fe52644d6d73a3b3611fc07d0e715b798ca66b722d493145521bc353aaa1db1
       )
 , readinessProbe =
     None
-      ./../types/io.k8s.api.core.v1.Probe.dhall sha256:c3eda1a20dafd00a0e706faa4bcb5f19ec8de10fc91e177bb97072339a406655
+      ./../types/io.k8s.api.core.v1.Probe.dhall
+        sha256:de23bf04b217c462b912da9de0552942eabbb2aa5f22db1b454ac9004fa895a8
 , resources =
     None
-      ./../types/io.k8s.api.core.v1.ResourceRequirements.dhall sha256:e6a52f46fab854b0ba0f7267cbea09584e22585481acfc0959e205dd5f1cb30a
+      ./../types/io.k8s.api.core.v1.ResourceRequirements.dhall
+        sha256:e6a52f46fab854b0ba0f7267cbea09584e22585481acfc0959e205dd5f1cb30a
 , securityContext =
     None
-      ./../types/io.k8s.api.core.v1.SecurityContext.dhall sha256:e6014cb04f68e69982bcfcabad26edaff7c4cc9af7de2f8ee1da2df9a46e1aac
+      ./../types/io.k8s.api.core.v1.SecurityContext.dhall
+        sha256:80fa8cfef57d31cb0e59365189cf5c1ba95b5132a38e7ea0fabb5568181b27a0
+, startupProbe =
+    None
+      ./../types/io.k8s.api.core.v1.Probe.dhall
+        sha256:de23bf04b217c462b912da9de0552942eabbb2aa5f22db1b454ac9004fa895a8
 , stdin = None Bool
 , stdinOnce = None Bool
 , terminationMessagePath = None Text
@@ -40,12 +52,14 @@
 , volumeDevices =
     None
       ( List
-          ./../types/io.k8s.api.core.v1.VolumeDevice.dhall sha256:41d225bedf28907d18bcf746b630ad52788af8ae1a1d1236798fdf439727ad32
+          ./../types/io.k8s.api.core.v1.VolumeDevice.dhall
+            sha256:41d225bedf28907d18bcf746b630ad52788af8ae1a1d1236798fdf439727ad32
       )
 , volumeMounts =
     None
       ( List
-          ./../types/io.k8s.api.core.v1.VolumeMount.dhall sha256:250e19fec8a11c0b0f74114cbf2d1e0730b25a9bfbaf74902f3a15c5e1867c13
+          ./../types/io.k8s.api.core.v1.VolumeMount.dhall
+            sha256:250e19fec8a11c0b0f74114cbf2d1e0730b25a9bfbaf74902f3a15c5e1867c13
       )
 , workingDir = None Text
 }

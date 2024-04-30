@@ -2,5 +2,6 @@
 , namespace = None Text
 , template =
     None
-      ./../types/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall sha256:a0ca32ba796ea63bc9f7142f7c5092a20fe85f3dbfb7e376c4ab1b2d2e809e8f
+      ./../types/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall
+        sha256:068a346e3cc5ba076fb3837ecf76cd01c9526a4468db40b6f6e8f07514328a2b
 }

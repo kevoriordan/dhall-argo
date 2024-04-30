@@ -1,4 +1,5 @@
 { arguments =
     None
-      ./../types/io.argoproj.workflow.v1alpha1.Arguments.dhall sha256:71dc5d3ee4c60b33e5156b59097682af2abbed6baa81a7e4255e6ba7b1b1bac7
+      ./../types/io.argoproj.workflow.v1alpha1.Arguments.dhall
+        sha256:dacfb1bd93834f1cca9d89ffbfc3c5b93f0f90070a6d094d3447fe68d8669ba2
 }

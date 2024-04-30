@@ -1,5 +1,7 @@
 { Type =
-    ./../types/io.argoproj.workflow.v1alpha1.GitArtifact.dhall sha256:42771e7d6a9084a5bd90c62ef1fbad042bb83f59f96178b374b4c0313e5008b3
+    ./../types/io.argoproj.workflow.v1alpha1.GitArtifact.dhall
+      sha256:1ebe2bcf95260aca204cc027ef51b060a524ccb982be279addc8b560e38cce1d
 , default =
-    ./../defaults/io.argoproj.workflow.v1alpha1.GitArtifact.dhall sha256:42ce100899e8d517673204c638be89a2ad7b4b5b0c6718c531553511bba38de5
+    ./../defaults/io.argoproj.workflow.v1alpha1.GitArtifact.dhall
+      sha256:6f347e2934032d780245776b09cda1afa8d6b9fc59422188ae52641bdbc1b0fc
 }

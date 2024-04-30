@@ -1,5 +1,7 @@
 { Type =
-    ./../types/io.k8s.api.core.v1.Container.dhall sha256:6ff92bb9a93d8b7cf2cb0212eeba616a2b61cb18e47dd89e9060dc0d93c14710
+    ./../types/io.k8s.api.core.v1.Container.dhall
+      sha256:ab375472a46170a40c608ec7508c712013065e51ac77cd2b159ee9c4d7a44f83
 , default =
-    ./../defaults/io.k8s.api.core.v1.Container.dhall sha256:bb8c6c21596e00996998c162963eeecf48c076ad9cb3447d18580f1b7f6d2d70
+    ./../defaults/io.k8s.api.core.v1.Container.dhall
+      sha256:a31ed6084315eabde43cd75b0cda34a2295e1ae7a25f0fd52c9828afcaa64f95
 }
