@@ -10,7 +10,7 @@
 , template =
     None
       ./../types/io.argoproj.events.v1alpha1.Template.dhall
-        sha256:10fb7ae1c502791dc3bb6b37f2e705272f0ec51870a30fbdd41814daa294be36
+        sha256:0e018e497928f920d69a7579a3c804ebbd1c76f0287966acbc176b5c2da2df4f
 , triggers =
     None
       ( List

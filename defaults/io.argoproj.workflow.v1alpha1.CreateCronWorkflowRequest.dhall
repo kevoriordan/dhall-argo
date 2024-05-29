@@ -5,6 +5,6 @@
 , cronWorkflow =
     None
       ./../types/io.argoproj.workflow.v1alpha1.CronWorkflow.dhall
-        sha256:80adf3bc726ad445ffb06b1c71d7d6cd6af7cce6b589a554b890103243a040c7
+        sha256:2684b4fcdbecf7331b3fecfb487ef2095e7ccc5f2aa1c50ed710350ed4f41207
 , namespace = None Text
 }

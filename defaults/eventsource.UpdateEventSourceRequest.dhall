@@ -1,7 +1,7 @@
 { eventSource =
     None
       ./../types/io.argoproj.events.v1alpha1.EventSource.dhall
-        sha256:ce7de49f7a0eb5716381c660f1222547d33f4dab07fef3f7369c60f429b62036
+        sha256:d898e5c752299168292d44b90e4d1eb61e5ad2ed03a533afbc648adb2854b858
 , name = None Text
 , namespace = None Text
 }

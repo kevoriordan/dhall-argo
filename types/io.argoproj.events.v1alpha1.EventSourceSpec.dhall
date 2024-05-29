@@ -241,7 +241,7 @@
 , template :
     Optional
       ./io.argoproj.events.v1alpha1.Template.dhall
-        sha256:92215cf5fa28391103374132ce2acf999bc850e0cca619b15b70289c0a8d564e
+        sha256:0e018e497928f920d69a7579a3c804ebbd1c76f0287966acbc176b5c2da2df4f
 , webhook :
     Optional
       ( List

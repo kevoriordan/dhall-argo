@@ -1,7 +1,7 @@
 { spec =
     None
       ./../types/io.argoproj.events.v1alpha1.SensorSpec.dhall
-        sha256:61c8f9d3de8b88a63be3918114d64dd4a63c7668ec499053552eceb0d427e379
+        sha256:46540e09bd9c2ac56eac02bea516ec2fdefd420054e002b7bde2dde97d7c0472
 , status =
     None
       ./../types/io.argoproj.events.v1alpha1.SensorStatus.dhall

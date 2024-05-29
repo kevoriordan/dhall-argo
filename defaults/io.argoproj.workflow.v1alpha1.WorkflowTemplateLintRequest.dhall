@@ -6,5 +6,5 @@
 , template =
     None
       ./../types/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall
-        sha256:7bbccd7766a617ed298dbadfb6fb3eb225277f02739ea13f606250e788429f80
+        sha256:fa279356bb6087830a407ff562587d468340ac176dcca1512bf8f75aab1c9237
 }

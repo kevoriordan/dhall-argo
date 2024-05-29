@@ -5,7 +5,7 @@
       sha256:adb0523116c761f62c7147ea85f3877d4ad1fa7a0ff334bff7d594a5635967d6
 , spec :
     ./io.argoproj.workflow.v1alpha1.CronWorkflowSpec.dhall
-      sha256:f109ae72525315b8570126a1f9037c019d969266fc4faaf65cb4a87b310d6371
+      sha256:c39809b52bef0388553ac3fddbebf01555e4b6623dc6a23aac92eb93e7345630
 , status :
     Optional
       ./io.argoproj.workflow.v1alpha1.CronWorkflowStatus.dhall

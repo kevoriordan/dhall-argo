@@ -1,7 +1,7 @@
 { Type =
     ./../types/io.argoproj.workflow.v1alpha1.CreateCronWorkflowRequest.dhall
-      sha256:cbd28f554a35baaf8fbc11805092a820a40332231d79143afc3bf42e94c11a27
+      sha256:9ed529ef4caaf027869b4057f01e633b05404f9a2e623a50dca1dba97a340575
 , default =
     ./../defaults/io.argoproj.workflow.v1alpha1.CreateCronWorkflowRequest.dhall
-      sha256:7178d4c9f3aefb5f77fcd98cf0b6a15f2efa0a3bb47979bf180c0a7cc7a770cc
+      sha256:67dd3b87912641f7034137337b627ab2a7b34b36c8dafc0fec24ec79b19b8980
 }

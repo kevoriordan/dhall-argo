@@ -91,12 +91,12 @@
 , templateDefaults :
     Optional
       ./io.argoproj.workflow.v1alpha1.Template.dhall
-        sha256:5983d432ebf7692054649abaa6ab4dc409bc2bbf102cf5844077a901479a7f5f
+        sha256:697089fc0a3957bb32726c24668cb4ee93d548d64771e1c477d2a0343f705a6e
 , templates :
     Optional
       ( List
           ./io.argoproj.workflow.v1alpha1.Template.dhall
-            sha256:5983d432ebf7692054649abaa6ab4dc409bc2bbf102cf5844077a901479a7f5f
+            sha256:697089fc0a3957bb32726c24668cb4ee93d548d64771e1c477d2a0343f705a6e
       )
 , tolerations :
     Optional

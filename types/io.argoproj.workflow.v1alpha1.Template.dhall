@@ -18,7 +18,7 @@
 , container :
     Optional
       ./io.k8s.api.core.v1.Container.dhall
-        sha256:ed7433efcad7bc9d3b2ec68fc89040b3c24d408fd5404765f686ee3071e890a6
+        sha256:b25ef15532f6796871a4af01e76f14935ab73514ac45b519f7ccf0590a14c56e
 , containerSet :
     Optional
       ./io.argoproj.workflow.v1alpha1.ContainerSetTemplate.dhall

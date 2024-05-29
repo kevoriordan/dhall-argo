@@ -1,7 +1,7 @@
 { Type =
     ./../types/io.argoproj.workflow.v1alpha1.LintCronWorkflowRequest.dhall
-      sha256:32e9895172d5499608c5ad4022b90972c8ff12c7f270724d83ed346200d81d72
+      sha256:90625b01a9b245725735b8f697285704a24f0d20c31be5c5c91739722b2b7f80
 , default =
     ./../defaults/io.argoproj.workflow.v1alpha1.LintCronWorkflowRequest.dhall
-      sha256:32ef7331a4cc264c3df14bdff39727ea0eefccdcf2ee81f3100b89a6500f9db3
+      sha256:94f9bd96e19a180c8bae7b90be8431b734396595919f795f43024b4c923707e4
 }

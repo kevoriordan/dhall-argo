@@ -52,13 +52,13 @@
           { mapKey : Text
           , mapValue :
               ./../types/io.argoproj.workflow.v1alpha1.Template.dhall
-                sha256:05707b3b5556b8399108e5946dedc88becb531c87ede5f49fedc13593cea3d4f
+                sha256:697089fc0a3957bb32726c24668cb4ee93d548d64771e1c477d2a0343f705a6e
           }
       )
 , storedWorkflowTemplateSpec =
     None
       ./../types/io.argoproj.workflow.v1alpha1.WorkflowSpec.dhall
-        sha256:8c6654e2f5a5e8b41b42276d5f4c0bb93ec80a42fb155ce71464dc06562b9c69
+        sha256:6e9ccafcc8bfde981202971bd92817125574ae4b592623d7a9c66162fc7f5726
 , synchronization =
     None
       ./../types/io.argoproj.workflow.v1alpha1.SynchronizationStatus.dhall

@@ -4,7 +4,7 @@
 , spec :
     Optional
       ./io.argoproj.events.v1alpha1.EventSourceSpec.dhall
-        sha256:ea4d016bfdf768e52af17102ad663466fba2b45fdb775bd48bf2e97d3a454500
+        sha256:140cd3fcf72096df137c718ad96246689a48ba40d78658a19960ce4fe1a6d02e
 , status :
     Optional
       ./io.argoproj.events.v1alpha1.EventSourceStatus.dhall

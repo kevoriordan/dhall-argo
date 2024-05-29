@@ -1,7 +1,7 @@
 { Type =
     ./../types/sensor.SensorWatchEvent.dhall
-      sha256:7f7d8ef268b5f2ddd74d5b7c537ec376331cc8c2602663b6be600f3469051f78
+      sha256:95f2c247761163942138062a60a587567b21905a35bcb0a6c0f5c2bc1a1aae9c
 , default =
     ./../defaults/sensor.SensorWatchEvent.dhall
-      sha256:aecee26f413087c794a41166f8b3399c910d09df139b5635eec595e4e6245901
+      sha256:aabbcae550914c2d60591ba4e1dad8ff2ea35910002d640e6495660f9de18574
 }

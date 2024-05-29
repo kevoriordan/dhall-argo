@@ -5,9 +5,9 @@
       sha256:adb0523116c761f62c7147ea85f3877d4ad1fa7a0ff334bff7d594a5635967d6
 , spec :
     ./io.argoproj.workflow.v1alpha1.WorkflowSpec.dhall
-      sha256:10bd41eeeccc00b1f44df0c09a2a8469f79416c1ba77c9b27c7a0c37a16e2fb7
+      sha256:6e9ccafcc8bfde981202971bd92817125574ae4b592623d7a9c66162fc7f5726
 , status :
     Optional
       ./io.argoproj.workflow.v1alpha1.WorkflowStatus.dhall
-        sha256:7bf1026a5d72c89babf294797003cdc389ffd8b9dadb06ca25cf3f1ba34c3e38
+        sha256:ca0d9e51b39b31ac35c0b583bee26d639b7f913caad1969fcbd34c44f1c7aec0
 }
