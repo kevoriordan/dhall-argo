@@ -1,7 +1,7 @@
 { retryStrategy =
     None
       ./../types/io.argoproj.workflow.v1alpha1.ContainerSetRetryStrategy.dhall
-        sha256:29e5bbf3b52826912358ec32e706215d6d4c9306f086162fd4ca09b25e946e87
+        sha256:60f68b107187bba60460b671006daf4f9c8000510940db74cc675eea0f6b5fe2
 , volumeMounts =
     None
       ( List

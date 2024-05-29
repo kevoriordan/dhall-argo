@@ -51,7 +51,7 @@
     Optional
       ( List
           ./io.argoproj.workflow.v1alpha1.UserContainer.dhall
-            sha256:81ba0577093e604663f9e6697604f9b94977ff59c75e88a4834249372fe7f3cf
+            sha256:4e23c999210768a343317664c822a0e33978199f92164055009b69f4dea0a791
       )
 , inputs :
     Optional
@@ -91,7 +91,7 @@
 , script :
     Optional
       ./io.argoproj.workflow.v1alpha1.ScriptTemplate.dhall
-        sha256:c39bcbfe3b8566d28de42cec4d3c48b17fddf4c4cbd4972ca1f93c849635faee
+        sha256:09c98b90dc9eb4f346d27fecdaf93f89c3b5af0a43044b656092587647d829ba
 , securityContext :
     Optional
       ./io.k8s.api.core.v1.PodSecurityContext.dhall
@@ -101,13 +101,13 @@
     Optional
       ( List
           ./io.argoproj.workflow.v1alpha1.UserContainer.dhall
-            sha256:81ba0577093e604663f9e6697604f9b94977ff59c75e88a4834249372fe7f3cf
+            sha256:4e23c999210768a343317664c822a0e33978199f92164055009b69f4dea0a791
       )
 , steps :
     Optional
       ( List
           ./io.argoproj.workflow.v1alpha1.ParallelSteps.dhall
-            sha256:adbe4cf78f6723d9aa6d45d69e0b06840db7adcc99fafc89183c2c3d3861f430
+            sha256:a8d0e10c6b9822845423cc9a19285b6b2bde62235a347230e88020be64daf2c5
       )
 , suspend :
     Optional

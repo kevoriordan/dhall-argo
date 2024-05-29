@@ -1,7 +1,7 @@
 { Type =
     ./../types/io.argoproj.events.v1alpha1.Service.dhall
-      sha256:526313afbcdbd52e9aeb9046547005e1001ee1925c251481c7ae63eaf534ca0d
+      sha256:780aec2dc390802917a64f58582475cd6e99d51eb48baa9080279bf04187d5f1
 , default =
     ./../defaults/io.argoproj.events.v1alpha1.Service.dhall
-      sha256:098bb1871003ed0dc7a55901220b8df10c73db6bdee409740dd7f6456f717a54
+      sha256:0a39b2b0a3339b3eb507bbe462c5474312d9c4a82d96696aceb4b65d1f0885cc
 }

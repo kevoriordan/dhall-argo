@@ -3,6 +3,6 @@
     None
       ( List
           ./../types/io.k8s.api.core.v1.ServicePort.dhall
-            sha256:744ceb2af102e2affea4970c495951f20f4ac3db1543e5c22bc86c0c81566ae5
+            sha256:d3bb6b6f8e46c3b06a277a4e8621d34469c7a63d2156f02a9f73def7f4908d8b
       )
 }

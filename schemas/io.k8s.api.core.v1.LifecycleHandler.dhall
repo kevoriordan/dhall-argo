@@ -1,7 +1,7 @@
 { Type =
     ./../types/io.k8s.api.core.v1.LifecycleHandler.dhall
-      sha256:4084a3cea231f5174c6bbf34b30507107390ca5c7a4834b8a8b847493b1328f4
+      sha256:41c75ed2ee8eb112cdf8f55da811f89137100d38ce3385daa32228012e64ab63
 , default =
     ./../defaults/io.k8s.api.core.v1.LifecycleHandler.dhall
-      sha256:6bf648973e501739827cffc009f711a2bc1db2222f7316721655fed401b2363b
+      sha256:f689fe2251320797c2b6fbe467fdb695914e5b2cdb0ecde49ed782fc6b5daa85
 }

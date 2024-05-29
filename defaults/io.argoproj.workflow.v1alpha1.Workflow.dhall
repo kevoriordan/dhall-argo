@@ -1,5 +1,5 @@
 { status =
     None
       ./../types/io.argoproj.workflow.v1alpha1.WorkflowStatus.dhall
-        sha256:fc6ebf10b63ce6597c6745ef858d7ff6237ab98e3650ff6634774cbdae380097
+        sha256:9107f4e4e913fe5f76b154a06b55c9b2dfba73ed9099bcee9cd0f4db8ad54810
 }

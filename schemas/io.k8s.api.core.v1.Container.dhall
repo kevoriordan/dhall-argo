@@ -1,7 +1,7 @@
 { Type =
     ./../types/io.k8s.api.core.v1.Container.dhall
-      sha256:ab375472a46170a40c608ec7508c712013065e51ac77cd2b159ee9c4d7a44f83
+      sha256:ed7433efcad7bc9d3b2ec68fc89040b3c24d408fd5404765f686ee3071e890a6
 , default =
     ./../defaults/io.k8s.api.core.v1.Container.dhall
-      sha256:a31ed6084315eabde43cd75b0cda34a2295e1ae7a25f0fd52c9828afcaa64f95
+      sha256:ad87f8f6a2ebf29a99db3f4ace9a5b184c8005c99fb618d4c7f042b9f923cae2
 }

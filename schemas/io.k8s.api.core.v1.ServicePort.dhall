@@ -1,7 +1,7 @@
 { Type =
     ./../types/io.k8s.api.core.v1.ServicePort.dhall
-      sha256:744ceb2af102e2affea4970c495951f20f4ac3db1543e5c22bc86c0c81566ae5
+      sha256:d3bb6b6f8e46c3b06a277a4e8621d34469c7a63d2156f02a9f73def7f4908d8b
 , default =
     ./../defaults/io.k8s.api.core.v1.ServicePort.dhall
-      sha256:8c9da8ac9a98d13eab98f30489977eb2b516f701ee060fa990bc8ccd145be3a8
+      sha256:d0a461edae87f23ef23c9b912bca1f701d0a8c15714fe4400bfb2c8cd4b066e4
 }

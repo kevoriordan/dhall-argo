@@ -10,7 +10,7 @@
 , httpGet :
     Optional
       ./io.k8s.api.core.v1.HTTPGetAction.dhall
-        sha256:400db3637922801bde075688d6e1082b713bf9ee881191fd207a788f306c8741
+        sha256:e3afdc1006b7ea2a86b9d2e6ad50fdd592a5708347700e448e0d488f1699f2e4
 , initialDelaySeconds : Optional Integer
 , periodSeconds : Optional Integer
 , successThreshold : Optional Integer

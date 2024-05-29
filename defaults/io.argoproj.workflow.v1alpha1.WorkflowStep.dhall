@@ -18,7 +18,7 @@
 , inline =
     None
       ./../types/io.argoproj.workflow.v1alpha1.Template.dhall
-        sha256:a528ed6940a8d031ad87534b38faaa25a6759debd4e74236830b56cc9625cc70
+        sha256:b9de9b077d64be85abc18bb6a4197b7b1082b6d9620b8d30cfb0a9eff2068ea4
 , name = None Text
 , onExit = None Text
 , template = None Text
@@ -37,5 +37,5 @@
 , withSequence =
     None
       ./../types/io.argoproj.workflow.v1alpha1.Sequence.dhall
-        sha256:e7cfed05c1b1fe58ce672e268aef05f8fb7e75b9ae3da9e21e2a691a76b5f8ae
+        sha256:f07f57bffe58baf22d58228f6a8aef43af15fc9b5e3a4649a388a6393ffdb8b5
 }

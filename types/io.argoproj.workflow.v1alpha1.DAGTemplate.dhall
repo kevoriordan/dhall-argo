@@ -1,7 +1,7 @@
 { tasks :
     List
       ./io.argoproj.workflow.v1alpha1.DAGTask.dhall
-        sha256:c0ba51a129b3a1d19994a3bf909a1e7c85b34c61fb1c47a4164aea2a1c1b13f3
+        sha256:4b3d741011aabea115acc4249861adbb2ac4d1adfb7d96bb9b0f3595a32dcbc4
 , failFast : Optional Bool
 , target : Optional Text
 }

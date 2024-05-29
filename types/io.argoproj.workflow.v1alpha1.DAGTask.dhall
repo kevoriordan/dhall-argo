@@ -35,5 +35,5 @@
 , withSequence :
     Optional
       ./io.argoproj.workflow.v1alpha1.Sequence.dhall
-        sha256:e7cfed05c1b1fe58ce672e268aef05f8fb7e75b9ae3da9e21e2a691a76b5f8ae
+        sha256:f07f57bffe58baf22d58228f6a8aef43af15fc9b5e3a4649a388a6393ffdb8b5
 }

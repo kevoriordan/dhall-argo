@@ -1,7 +1,7 @@
 { schedule : Text
 , workflowSpec :
     ./io.argoproj.workflow.v1alpha1.WorkflowSpec.dhall
-      sha256:4bdb7584bf3b60d0e3966a920576cf41f6fd1d049c5c263c0551ad215f1e6aa9
+      sha256:832e830138f9d99938f9df7bf88e35c2d46b598d69e56789ea9375f44b19359b
 , concurrencyPolicy : Optional Text
 , failedJobsHistoryLimit : Optional Integer
 , startingDeadlineSeconds : Optional Integer

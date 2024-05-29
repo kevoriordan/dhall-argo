@@ -47,7 +47,7 @@
     None
       ( List
           ./../types/io.argoproj.workflow.v1alpha1.UserContainer.dhall
-            sha256:81ba0577093e604663f9e6697604f9b94977ff59c75e88a4834249372fe7f3cf
+            sha256:4e23c999210768a343317664c822a0e33978199f92164055009b69f4dea0a791
       )
 , inputs =
     None
@@ -101,7 +101,7 @@
     None
       ( List
           ./../types/io.argoproj.workflow.v1alpha1.UserContainer.dhall
-            sha256:81ba0577093e604663f9e6697604f9b94977ff59c75e88a4834249372fe7f3cf
+            sha256:4e23c999210768a343317664c822a0e33978199f92164055009b69f4dea0a791
       )
 , steps =
     None
