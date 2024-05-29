@@ -18,11 +18,11 @@
 , lifecycle =
     None
       ./../types/io.k8s.api.core.v1.Lifecycle.dhall
-        sha256:b8e42132176f9f4d6bb32c40a43d29f8974992697507d3308c472102470f369a
+        sha256:68b42e890078309297113c05701503a4d25778620bf338533eff4c8066d0995b
 , livenessProbe =
     None
       ./../types/io.k8s.api.core.v1.Probe.dhall
-        sha256:de23bf04b217c462b912da9de0552942eabbb2aa5f22db1b454ac9004fa895a8
+        sha256:e6882fc1fcd17a99a35ada144e0a385c251774630a73689b13a869de180e9a47
 , ports =
     None
       ( List
@@ -32,7 +32,7 @@
 , readinessProbe =
     None
       ./../types/io.k8s.api.core.v1.Probe.dhall
-        sha256:de23bf04b217c462b912da9de0552942eabbb2aa5f22db1b454ac9004fa895a8
+        sha256:e6882fc1fcd17a99a35ada144e0a385c251774630a73689b13a869de180e9a47
 , resources =
     None
       ./../types/io.k8s.api.core.v1.ResourceRequirements.dhall
@@ -44,7 +44,7 @@
 , startupProbe =
     None
       ./../types/io.k8s.api.core.v1.Probe.dhall
-        sha256:de23bf04b217c462b912da9de0552942eabbb2aa5f22db1b454ac9004fa895a8
+        sha256:e6882fc1fcd17a99a35ada144e0a385c251774630a73689b13a869de180e9a47
 , stdin = None Bool
 , stdinOnce = None Bool
 , terminationMessagePath = None Text

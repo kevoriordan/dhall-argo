@@ -3,5 +3,5 @@
 , template :
     Optional
       ./io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall
-        sha256:7bbccd7766a617ed298dbadfb6fb3eb225277f02739ea13f606250e788429f80
+        sha256:e8d3bd643e3559189e4eb18a7173baf04e2366a7009fea415d155e4c2749afd2
 }

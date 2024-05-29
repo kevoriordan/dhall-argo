@@ -18,16 +18,16 @@
 , container :
     Optional
       ./io.k8s.api.core.v1.Container.dhall
-        sha256:ab375472a46170a40c608ec7508c712013065e51ac77cd2b159ee9c4d7a44f83
+        sha256:ed7433efcad7bc9d3b2ec68fc89040b3c24d408fd5404765f686ee3071e890a6
 , containerSet :
     Optional
       ./io.argoproj.workflow.v1alpha1.ContainerSetTemplate.dhall
-        sha256:f5c3ac2766545b6b92626d3c3247e568490c14c394d831ae2c06cee50ebf50ef
+        sha256:54057c3f15645e74a169e620e767ca6497f33686fedbccd9282dce91c8bcd7ba
 , daemon : Optional Bool
 , dag :
     Optional
       ./io.argoproj.workflow.v1alpha1.DAGTemplate.dhall
-        sha256:bfcbeb8d517277d13505a675047a98ddd1f85fed52e13816df8a60f8b5627f64
+        sha256:e8127974f63db11fe9bab32d2c1a2cb7fc1853806aefd9abc057538061b3bdbc
 , data :
     Optional
       ./io.argoproj.workflow.v1alpha1.Data.dhall
@@ -51,7 +51,7 @@
     Optional
       ( List
           ./io.argoproj.workflow.v1alpha1.UserContainer.dhall
-            sha256:4e23c999210768a343317664c822a0e33978199f92164055009b69f4dea0a791
+            sha256:7d76ef6a2b2d39f1e47128738866f10a6196dbe01c7f3d64f26d35ec7997dad5
       )
 , inputs :
     Optional
@@ -86,12 +86,12 @@
 , retryStrategy :
     Optional
       ./io.argoproj.workflow.v1alpha1.RetryStrategy.dhall
-        sha256:0caefa07b58a9e6ee044a9cc57f8b19b67e79d00db3e0ccdbe28c3a4e0df0644
+        sha256:10f646cbd3e81d55c3901e0378dc940dac22dc5dce1c299c675a7dfa9ded3671
 , schedulerName : Optional Text
 , script :
     Optional
       ./io.argoproj.workflow.v1alpha1.ScriptTemplate.dhall
-        sha256:09c98b90dc9eb4f346d27fecdaf93f89c3b5af0a43044b656092587647d829ba
+        sha256:6747a52bb2cf3fae989976f358986cd353eece85a5035073d46bb18a29011042
 , securityContext :
     Optional
       ./io.k8s.api.core.v1.PodSecurityContext.dhall
@@ -101,7 +101,7 @@
     Optional
       ( List
           ./io.argoproj.workflow.v1alpha1.UserContainer.dhall
-            sha256:4e23c999210768a343317664c822a0e33978199f92164055009b69f4dea0a791
+            sha256:7d76ef6a2b2d39f1e47128738866f10a6196dbe01c7f3d64f26d35ec7997dad5
       )
 , steps :
     Optional

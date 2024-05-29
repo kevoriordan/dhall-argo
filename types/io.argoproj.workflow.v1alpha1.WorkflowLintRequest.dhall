@@ -2,5 +2,5 @@
 , workflow :
     Optional
       ./io.argoproj.workflow.v1alpha1.Workflow.dhall
-        sha256:c479a3cadddff72e7ee5ad60bfa478e84ce473cdcc67cdb1555166b4aca08da7
+        sha256:eb723dded44be8c3db24e28e0d3093da18200fe91f97396b9c3de9e431b1db20
 }

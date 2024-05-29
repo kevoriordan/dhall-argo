@@ -8,7 +8,7 @@
 , container :
     Optional
       ./io.k8s.api.core.v1.Container.dhall
-        sha256:ab375472a46170a40c608ec7508c712013065e51ac77cd2b159ee9c4d7a44f83
+        sha256:ed7433efcad7bc9d3b2ec68fc89040b3c24d408fd5404765f686ee3071e890a6
 , imagePullSecrets :
     Optional
       ( List

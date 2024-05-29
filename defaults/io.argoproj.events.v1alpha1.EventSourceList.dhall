@@ -2,6 +2,6 @@
     None
       ( List
           ./../types/io.argoproj.events.v1alpha1.EventSource.dhall
-            sha256:576a345cf00c4efd25a4908c9f7c1c8153d3766050ac1c4fba64c4f6b9ed7983
+            sha256:ce7de49f7a0eb5716381c660f1222547d33f4dab07fef3f7369c60f429b62036
       )
 }

@@ -8,5 +8,5 @@
 , workflow =
     None
       ./../types/io.argoproj.workflow.v1alpha1.Workflow.dhall
-        sha256:1b715218e1e9eeae14dc8aae139f026c587cdb9988ba10501b29aba1971d3fb9
+        sha256:eb723dded44be8c3db24e28e0d3093da18200fe91f97396b9c3de9e431b1db20
 }

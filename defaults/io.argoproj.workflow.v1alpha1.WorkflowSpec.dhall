@@ -75,7 +75,7 @@
 , retryStrategy =
     None
       ./../types/io.argoproj.workflow.v1alpha1.RetryStrategy.dhall
-        sha256:0caefa07b58a9e6ee044a9cc57f8b19b67e79d00db3e0ccdbe28c3a4e0df0644
+        sha256:10f646cbd3e81d55c3901e0378dc940dac22dc5dce1c299c675a7dfa9ded3671
 , schedulerName = None Text
 , securityContext =
     None
@@ -91,12 +91,12 @@
 , templateDefaults =
     None
       ./../types/io.argoproj.workflow.v1alpha1.Template.dhall
-        sha256:b9de9b077d64be85abc18bb6a4197b7b1082b6d9620b8d30cfb0a9eff2068ea4
+        sha256:5983d432ebf7692054649abaa6ab4dc409bc2bbf102cf5844077a901479a7f5f
 , templates =
     None
       ( List
           ./../types/io.argoproj.workflow.v1alpha1.Template.dhall
-            sha256:b9de9b077d64be85abc18bb6a4197b7b1082b6d9620b8d30cfb0a9eff2068ea4
+            sha256:5983d432ebf7692054649abaa6ab4dc409bc2bbf102cf5844077a901479a7f5f
       )
 , tolerations =
     None

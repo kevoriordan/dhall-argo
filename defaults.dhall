@@ -249,7 +249,7 @@
       sha256:4db37f55b9d03ec1afe3dd8d22692b8098d78f6d37930e47bb20f5a57ccf5053
 , Service =
     ./defaults/io.argoproj.events.v1alpha1.Service.dhall
-      sha256:098bb1871003ed0dc7a55901220b8df10c73db6bdee409740dd7f6456f717a54
+      sha256:0a39b2b0a3339b3eb507bbe462c5474312d9c4a82d96696aceb4b65d1f0885cc
 , SlackEventSource =
     ./defaults/io.argoproj.events.v1alpha1.SlackEventSource.dhall
       sha256:82c2c356e0f628560deff4515a2df1dc4099067488587b35024bb7ce82df56f7
@@ -408,7 +408,7 @@
       sha256:975539f1c8b0e4295f95d9f56e555be110df5175168ef9592edeb0459c5812d6
 , ContainerSetTemplate =
     ./defaults/io.argoproj.workflow.v1alpha1.ContainerSetTemplate.dhall
-      sha256:78d3a702689a4d3b5dde9aaa5616141ce088e4ccc142986a755d4b7fc4d4e094
+      sha256:c3f900f33c1bcc492b17cd5c65139af72ed29a31cdbc251fc7e9cb6087a0251a
 , ContinueOn =
     ./defaults/io.argoproj.workflow.v1alpha1.ContinueOn.dhall
       sha256:fe1dfcc5d868918b5069e3b78960ef0e5b6be84981ef314ac80f7511018eaf67
@@ -606,7 +606,7 @@
       sha256:825072225e711e3d6b33a08e651de41442dd1c9acf58645dfe1cb6b9a572bd8e
 , RetryStrategy =
     ./defaults/io.argoproj.workflow.v1alpha1.RetryStrategy.dhall
-      sha256:3fac03a53529533d1dfebf108b05294d83ef589dd2c73891d7f82eed25e3731b
+      sha256:438832281f19d5c8246e640a703b02baac038fa14244083c1a8051dc44634bac
 , S3Artifact =
     ./defaults/io.argoproj.workflow.v1alpha1.S3Artifact.dhall
       sha256:0f8701b4696cd3393aa40c182ab5f57f197c275dd48f5b107a012e9ad49ff6a6
@@ -654,7 +654,7 @@
       sha256:d1198ee7ad64d0196142b6b33f7ff8b0fd39d18e838af16f3bc779350207bf67
 , Template =
     ./defaults/io.argoproj.workflow.v1alpha1.Template.dhall
-      sha256:cac03738e1427e3597a05420a6c6d2a77c09c6ef46616f6afbfe8a8729a8c277
+      sha256:4b8499833b950698d78d2ffae38d6a0a7d5df76aaaa75955f6f276c905b45400
 , TemplateRef =
     ./defaults/io.argoproj.workflow.v1alpha1.TemplateRef.dhall
       sha256:88768683d052273aaba22daae33fd1a8763f254475fcb7557e71bb323b4d9152
@@ -678,7 +678,7 @@
       sha256:244533b7fc17b5983a9a0ab106e59cbb7fa578e3a06632557f3a0c383614ed35
 , Workflow =
     ./defaults/io.argoproj.workflow.v1alpha1.Workflow.dhall
-      sha256:a1869e965cc4e9040a0fcffa532f6995de4a6540075d6ba2b81bd8dec828da69
+      sha256:f12e33fd525237aa0c317e000c41097bf1f1bee69860e0f83525ed2068925e1f
 , WorkflowCreateRequest =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowCreateRequest.dhall
       sha256:3dfa4903d7b21173ed8dcc6b5e29bf9c84ceca5d3270046cea15eccc18c4d89f
@@ -714,13 +714,13 @@
       sha256:1f8e93c17b391630ffb84beeaf4b5c13ede93e264bb87c3bf713211ce1a560c7
 , WorkflowSpec =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowSpec.dhall
-      sha256:3cbff104308b6ddac33740fcafde5e9a8e250a4806119bd5baa5f891aede1097
+      sha256:d44b505098cdcaa51197023f47d4e2b75315dd2ae3407a73c10352874f9531cc
 , WorkflowStatus =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowStatus.dhall
-      sha256:14495bafa437774dd119c56c694cebab62afce316acd2f5ba8bd77d6f769848a
+      sha256:2c0869d7216ba7be278ec04ebb8bb3fa5dcf0f4f8b6289f13ac0da9f512ace55
 , WorkflowStep =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowStep.dhall
-      sha256:f1dd0603f7ad1cebf69e17ff40081c08078d69fcafda85469cc5258835b64f91
+      sha256:5e7424ea3216509d0aebe3b72e79517bae9afb227f13b1a55bf59fc78fbe5118
 , WorkflowStopRequest =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowStopRequest.dhall
       sha256:eb055d204e08f92717525ff4d45a05521b946cb183d59c792ae09e17b79ca85b

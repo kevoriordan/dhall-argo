@@ -1,7 +1,7 @@
 { spec =
     None
       ./../types/io.argoproj.events.v1alpha1.EventSourceSpec.dhall
-        sha256:e93d416234d6be9c236ed4f9fd1646bd6967e872d35f24147a6d0a03815eefe2
+        sha256:ea4d016bfdf768e52af17102ad663466fba2b45fdb775bd48bf2e97d3a454500
 , status =
     None
       ./../types/io.argoproj.events.v1alpha1.EventSourceStatus.dhall

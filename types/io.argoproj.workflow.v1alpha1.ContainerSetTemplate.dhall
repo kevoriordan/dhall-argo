@@ -1,7 +1,7 @@
 { containers :
     List
       ./io.argoproj.workflow.v1alpha1.ContainerNode.dhall
-        sha256:ab56c509283695bd7672337b9f48e94a9af229ab0f9097118f1ad4f02cec761a
+        sha256:32c94d5caaca9f30abecf58cfa417cd6f96f83d9aa2519bf479f16a3a763460d
 , retryStrategy :
     Optional
       ./io.argoproj.workflow.v1alpha1.ContainerSetRetryStrategy.dhall

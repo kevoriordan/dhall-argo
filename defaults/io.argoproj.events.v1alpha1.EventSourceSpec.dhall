@@ -241,7 +241,7 @@
 , template =
     None
       ./../types/io.argoproj.events.v1alpha1.Template.dhall
-        sha256:92215cf5fa28391103374132ce2acf999bc850e0cca619b15b70289c0a8d564e
+        sha256:10fb7ae1c502791dc3bb6b37f2e705272f0ec51870a30fbdd41814daa294be36
 , webhook =
     None
       ( List
